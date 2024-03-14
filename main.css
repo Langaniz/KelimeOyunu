@@ -1,0 +1,95 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(31, 31, 31);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title{
+    color: #fff;
+    font-family: "Whisper";
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: -20px;
+}
+
+.puan{
+    margin-top: 50px;
+    margin-bottom: -35px;
+}
+
+.soruPuan{
+    background-color: #ebebeb;
+    width: 60px;
+    border-radius: 0 20px 0 0 ;
+}
+
+.güncelPuan{
+    color: #fff;
+    background-color: #001147;
+    width: 100px;
+    border-radius: 0 20px 0 0 ;
+}
+
+#kelimeGosterici{
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.letters{
+    display: inline-block;
+    width: 55px;
+    height: 63px;
+    margin: 10px;
+    background-image: url(altigen.png);
+    background-size: 55px;
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 60px;
+    text-align: center;
+}
+
+.buton{
+    margin-left: 20px;
+    color: #fff;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1d1c53;
+    transition: 0.35s;
+}
+
+.buton:hover{
+    background-color: #26255f;
+    border: none;
+    cursor: pointer;
+}
+
+.mor{
+    background-color: #44175e;
+}
+
+.mor:hover{
+    background-color: #572475;
+}
+
+#soruGosterici{
+    padding-left: 30px;
+    width: 60%;
+    margin: 20px 0 20px 10px;
+    background-color: #fff;
+    border-radius: 100px 10px 100px 10px;
+}
+
+#tahminInput{
+    border: none;
+    outline: none;
+    margin: 10px;
+    border-radius: 5px;
+    height: 20px;
+    padding-left: 5px;
+}
